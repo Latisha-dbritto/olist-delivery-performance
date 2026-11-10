@@ -1,4 +1,4 @@
-#Olist Delivery Performance and Customer Impact
+Olist Delivery Performance and Customer Impact
 I wanted to find out where delivery goes wrong on an online marketplace, and whether late delivery affects what customers think. I looked at four questions:
 
 How long does an order take, and which stage takes the longest?
