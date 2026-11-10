@@ -11,8 +11,7 @@ Do late orders get lower review scores?
 
 [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), from Kaggle (about 99,000 orders, 2016 to 2018). The raw files are large, so they are not in this repo. You can download them from Kaggle and run the SQL yourself.
 
-## Tables used: 
-orders, customers, order_reviews.
+## Tables used:  orders, customers, order_reviews.
 
 ## Manner of thing defined 
 Delivery time is split into three stages:
