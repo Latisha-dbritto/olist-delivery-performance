@@ -15,7 +15,7 @@ Do late orders get lower review scores?
 Tables used:  orders, customers, order_reviews.
 
 
-## Manner of thing defined 
+## Manner of things defined 
 Delivery time is split into three stages:
 Approval: purchase to payment approval
 Handling: approval to the seller handing the parcel to the carrier (seller side)
@@ -32,7 +32,7 @@ Joined order_reviews to compare review scores of late and on-time orders.
 (Add here: Excel seller scorecard, dashboard, slides, once they are done.)
 
 ## Findings
-8.1% of delivered orders were late (7,826 of 96,478).
+8.1% of delivered orders were late (7,826 of 96,470).
 Most of the extra time is in transit. Late orders spent about 25.7 days in transit, against 7.9 days for on-time orders. Of the roughly 20.6 extra days late orders take overall, about 17.8 (about 86%) are in transit. Handling is about twice as long for late orders (5.3 days against 2.6), and approval is almost the same.
 The north-east had the highest late rates. Alagoas 23.9%, Maranhão 19.7%, Piauí 16.0%, Ceará 15.3% and Sergipe 15.2%, against 8.1% overall. The Amazon states (Amazonas, Acre, Rondônia) had low late rates.
 São Paulo and Rio de Janeiro have the most late orders in total (2,387 and 1,664), about half of all late orders together, because they have the most orders. São Paulo's rate is low (5.9%) and Rio's is higher (13.5%).
@@ -47,6 +47,8 @@ This is an association between late delivery and lower scores. It does not prove
 There is no cost data, so I have not measured the money impact.
 
 ## Files
-sql/: the SQL queries
+sql/01_data_checks_and_late_rate.sql: data checks, definition of late, late percentage
+sql/02_delivery_stages.sql: time spent in approval, handling and transit, late vs on-time
+sql/03_state_and_review_impact.sql: late rate by state, review scores of late and on-time orders
 outputs/: result tables
 (Add dashboard and slides folders when they are done.)
