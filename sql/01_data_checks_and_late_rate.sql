@@ -1,7 +1,7 @@
 -- Question: how many delivered orders were late, and can the dates be trusted?
 -- "Late" = delivered after the estimated delivery date.
 
-select count(*) as delivered_orders from orders
+select count(*) as delivered_orders from orders  
 where order_status = 'delivered' and order_delivered_customer_date is not null
 
 select count(*) as late_orders from orders
