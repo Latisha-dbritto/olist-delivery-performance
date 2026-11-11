@@ -15,7 +15,7 @@ Do late orders get lower review scores?
 Tables used:  orders, customers, order_reviews.
 
 
-## Manner of things defined 
+## How I defined things
 Delivery time is split into three stages:
 Approval: purchase to payment approval
 Handling: approval to the seller handing the parcel to the carrier (seller side)
